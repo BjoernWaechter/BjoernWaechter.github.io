@@ -1,0 +1,50 @@
+html, body{
+	height: 100%;
+}
+.input {
+	height: 42%;
+	background-color: #FFFFFF;
+	border: 1px solid silver;
+	text-align: center;
+	overflow: auto;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.output {
+	height: 42%;
+	background-color: #FFFFFF;
+	border: 1px solid silver;
+	overflow: auto;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.copy_btn {
+	background-color: #e7e7e7; 
+	color: #444444;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+table, th, td {
+  border: 1px solid #999999 !important;
+}
+
+table.confluenceTable th.confluenceTh.info,table.confluenceTable th.confluenceTh.info>p,table.confluenceTable td.confluenceTd.highlight.info,table.confluenceTable td.confluenceTd.highlight.info>p,table.confluenceTable th.confluenceTh.highlight-blue,table.confluenceTable th.confluenceTh.highlight-blue>p,table.confluenceTable td.confluenceTd.highlight-blue,table.confluenceTable td.confluenceTd.highlight-blue>p{background-color:#deebff}
+
+table.confluenceTable th.confluenceTh.success,table.confluenceTable th.confluenceTh.success>p,table.confluenceTable td.confluenceTd.highlight.success,table.confluenceTable td.confluenceTd.highlight.success>p,table.confluenceTable th.confluenceTh.highlight-green,table.confluenceTable th.confluenceTh.highlight-green>p,table.confluenceTable td.confluenceTd.highlight-green,table.confluenceTable td.confluenceTd.highlight-green>p{background-color:#e3fcef}
+
+table.confluenceTable th.confluenceTh.warning,table.confluenceTable th.confluenceTh.warning>p,table.confluenceTable td.confluenceTd.highlight.warning,table.confluenceTable td.confluenceTd.highlight.warning>p,table.confluenceTable th.confluenceTh.highlight-red,table.confluenceTable th.confluenceTh.highlight-red>p,table.confluenceTable td.confluenceTd.highlight-red,table.confluenceTable td.confluenceTd.highlight-red>p{background-color:#ffebe5}
+
+table.confluenceTable th.confluenceTh.note,table.confluenceTable th.confluenceTh.note>p,table.confluenceTable td.confluenceTd.highlight.note,table.confluenceTable td.confluenceTd.highlight.note>p,table.confluenceTable th.confluenceTh.highlight-yellow,table.confluenceTable th.confluenceTh.highlight-yellow>p,table.confluenceTable td.confluenceTd.highlight-yellow,table.confluenceTable td.confluenceTd.highlight-yellow>p{background-color:#fffae5}
+
+table.confluenceTable th.confluenceTh.note,table.confluenceTable th.confluenceTh.note>p,table.confluenceTable td.confluenceTd.highlight.note,table.confluenceTable td.confluenceTd.highlight.note>p,table.confluenceTable th.confluenceTh.highlight-grey,table.confluenceTable th.confluenceTh.highlight-grey>p,table.confluenceTable td.confluenceTd.highlight-grey,table.confluenceTable td.confluenceTd.highlight-grey>p{background-color:#f4f5f7}
+
+.confluenceTable{border-collapse:collapse}
+.confluenceTh,.confluenceTd{border:1px solid #c1c7d0;padding:7px 10px;vertical-align:top;text-align:left;min-width:8px}
