@@ -128,6 +128,11 @@ $("#pasteid").bind("paste", function(e){
 			
 			cell_value = cells[c].innerHTML
 			
+			if (cell_value == "")
+			{
+				cell_value = "<br>";
+			}
+			
 			if (color.length > 0) 
 			{
 				cell_value = '<span style="color: '+color+';">'+cell_value+"</span>";
